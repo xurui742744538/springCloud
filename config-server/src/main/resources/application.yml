@@ -15,7 +15,7 @@ spring:
       hostname: ${HOSTNAME:localhost}
   # rabbitmq的地址 用户名 密码
   rabbitmq:
-    host: ${tony_public_rabbitmq_host:192.168.99.100}
+    host: ${tony_public_rabbitmq_host:192.168.2.226}
     username: ${tony_public_rabbitmq_username:guest}
     password: ${tony_public_rabbitmq_password:guest}
 
