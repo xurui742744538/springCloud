@@ -1,16 +1,580 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ae9d18ec-37da-489c-825c-96b5a7cd1bf4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configRepo/mail-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configRepo/mail-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configRepo/order-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configRepo/order-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configRepo/sms-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configRepo/sms-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configRepo/uaa-interface.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configRepo/uaa-interface.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configRepo/wms-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configRepo/wms-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/docker-compose-common.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/docker-compose-common.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/docker-compose-core.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/docker-compose-core.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/docker-compose-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/docker-compose-service.yml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/uaa-interface/target/" />
+    <ignored path="$PROJECT_DIR$/service-center/sms-service/target/" />
+    <ignored path="$PROJECT_DIR$/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/service-center/service-core/target/" />
+    <ignored path="$PROJECT_DIR$/service-center/target/" />
+    <ignored path="$PROJECT_DIR$/service-center/order-service/target/" />
+    <ignored path="$PROJECT_DIR$/zuul-server/target/" />
+    <ignored path="$PROJECT_DIR$/service-center/mail-service/target/" />
+    <ignored path="$PROJECT_DIR$/service-center/wms-service/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="wms-service.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/configRepo/wms-service.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zuul-server.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/configRepo/zuul-server.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-152" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-center/mail-service/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-center/mail-service/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="service.env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deploy/service.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="logback-spring.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/logback-spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mail-service.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/configRepo/mail-service.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docker-compose-middleware.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deploy/docker-compose-middleware.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-773">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>192.168.99.100:5000</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>192.168.2.226:5000</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/deploy/docker-compose-common.yml" />
+        <option value="$PROJECT_DIR$/deploy/docker-compose-core.yml" />
+        <option value="$PROJECT_DIR$/deploy/docker-compose-service.yml" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/configRepo/mail-service.yml" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/configRepo/order-service.yml" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/configRepo/sms-service.yml" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/configRepo/uaa-interface.yml" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/configRepo/wms-service.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/Documents/worke-soft/maven/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="$USER_HOME$/Documents/worke-soft/maven/apache-maven-3.5.4/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
   <component name="ProjectId" id="1oj9SqZX7TSYAuu65m7jFI1vqub" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="configRepo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="service-center" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="service-center" type="462c0819:PsiDirectoryNode" />
+              <item name="mail-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="service-center" type="462c0819:PsiDirectoryNode" />
+              <item name="mail-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="service-center" type="462c0819:PsiDirectoryNode" />
+              <item name="mail-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="service-center" type="462c0819:PsiDirectoryNode" />
+              <item name="mail-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="uaa-interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudgogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudgogo" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/ikingtec-worke/project/DMZ" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae9d18ec-37da-489c-825c-96b5a7cd1bf4" name="Default" comment="" />
+      <created>1613792318944</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613792318944</updated>
+      <workItem from="1613792320133" duration="2153000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2153000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.6533333" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info id="Web" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2625" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1613789189401">
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
     <state x="2625" y="380" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.2048.1112@1920.0.2048.1112" timestamp="1613789189401" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/docker-compose-service.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/docker-compose-core.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/docker-compose-common.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/configRepo/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/configRepo/order-service.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/configRepo/sms-service.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/configRepo/uaa-interface.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/configRepo/wms-service.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/configRepo/zuul-server.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-center/mail-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-center/mail-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/service.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/docker-compose-middleware.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-773">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/configRepo/mail-service.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
