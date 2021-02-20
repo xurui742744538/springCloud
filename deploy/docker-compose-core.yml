@@ -40,7 +40,7 @@ services:
           # CPU限制
           cpus: '0.5'
           # 内存限制
-          memory: 256M
+          memory: 512M
     # 健康检查，启动后，当这个命令执行没问题，才会任何这个服务启动成功
     healthcheck:
       # 命令
@@ -87,7 +87,7 @@ services:
           # CPU限制
           cpus: '0.5'
           # 内存限制
-          memory: 256M
+          memory: 512M
     # 健康检查，启动后，当这个命令执行没问题，才会任何这个服务启动成功
     healthcheck:
       # 命令
