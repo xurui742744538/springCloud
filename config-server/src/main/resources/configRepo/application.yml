@@ -16,7 +16,7 @@ token:
 spring:
   # rabbitmq的地址 用户名 密码
   rabbitmq:
-    host: 192.168.99.100
+    host: 192.168.2.266
     username: guest
     password: '{cipher}54afbcfe3a6d23f52ff36c17104894ab199621c7dc709f55f209ff295e5bcfbd'
   sleuth:
@@ -25,7 +25,7 @@ spring:
       percentage: 1.0
   # 2、接口调用信息推送到这个zipkin服务
   zipkin: 
-    base-url: http://192.168.99.100:9411
+    base-url: http://192.168.2.266:9411
 
   cloud:
     loadbalancer:

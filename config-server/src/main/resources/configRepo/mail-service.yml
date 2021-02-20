@@ -2,7 +2,7 @@ spring:
   datasource:
     type: org.apache.tomcat.jdbc.pool.DataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.2.226:3306/mail-db?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://192.168.2.226:33306/mail-db?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
     password: 12345678
   jpa:
@@ -32,7 +32,7 @@ spring:
           environment:
             spring:
               rabbitmq:
-                host: 192.168.99.100
+                host: 192.168.2.226
                 port: 5672
                 username: guest
                 password: guest

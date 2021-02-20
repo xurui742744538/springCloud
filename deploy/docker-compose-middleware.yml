@@ -37,26 +37,26 @@ services:
   # 1、安装gitlab。  文件版本管理工具
   # (如果同学自己机器上装很卡的话，使用oschina上的码云或者github来代替)
   # 老师用这里就注释掉了，需要的自行开启，之前的课程有讲过
-  #gitlab:
-  #  image: gitlab/gitlab-ce:latest
-  #  container_name: gitlab
-  #  ports:
-  #    - "1443:443"
-  #    - "18080:80"
-  #  networks:
-  #    - swarm_net
-  #  deploy:
-  #    replicas: 1
-  #    update_config:
-  #      parallelism: 1
-  #      delay: 10s
-  #    restart_policy:
-  #      condition: on-failure
-  #      # 重试三次
-  #      max_attempts: 3
-  #    resources:
-  #      limits:
-  #        memory: 700M
+  gitlab:
+    image: gitlab/gitlab-ce:latest
+    container_name: gitlab
+    ports:
+      - "1443:443"
+      - "18080:80"
+    networks:
+      - swarm_net
+    deploy:
+      replicas: 1
+      update_config:
+        parallelism: 1
+        delay: 10s
+      restart_policy:
+        condition: on-failure
+        # 重试三次
+        max_attempts: 3
+      resources:
+        limits:
+          memory: 700M
   # 2、安装es。       nosql
   elasticsearch: 
     image: elasticsearch
@@ -162,7 +162,7 @@ services:
     image: mysql
     container_name: mysql
     ports:
-      - "3306:3306"
+      - "33306:3306"
     environment:
       - MYSQL_ROOT_PASSWORD=12345678
     networks:
