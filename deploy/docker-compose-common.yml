@@ -5,7 +5,7 @@ version: "3.2"
 services:
   eureka1:
     # 镜像地址
-    image: 192.168.99.100:5000/eureka-server:0.0.1-SNAPSHOT
+    image: 192.168.2.226:5000/eureka-server:0.0.1-SNAPSHOT
     # 容器名称
     container_name: eureka1
     ports:
@@ -58,7 +58,7 @@ services:
   # 2、eureka2
   eureka2:
     # 镜像地址
-    image: 192.168.99.100:5000/eureka-server:0.0.1-SNAPSHOT
+    image: 192.168.2.226:5000/eureka-server:0.0.1-SNAPSHOT
     # 容器名称
     container_name: eureka2
     ports:
@@ -108,7 +108,7 @@ services:
   # 3、配置中心
   config-server:
     # 镜像地址
-    image: 192.168.99.100:5000/config-server:0.0.1-SNAPSHOT
+    image: 192.168.2.226:5000/config-server:0.0.1-SNAPSHOT
     # 容器名称
     container_name: config-server
     ports:

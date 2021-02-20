@@ -6,7 +6,7 @@ services:
   # 1、订单服务
   order-service:
     # 镜像地址
-    image: 192.168.99.100:5000/order-service:1.0.0
+    image: 192.168.2.226:5000/order-service:1.0.0
     # 容器名称
     container_name: order-service
     # 端口不对外开放
@@ -52,7 +52,7 @@ services:
   # 2、仓储服务
   wms-service:
     # 镜像地址
-    image: 192.168.99.100:5000/wms-service:1.0.0
+    image: 192.168.2.226:5000/wms-service:1.0.0
     # 容器名称
     container_name: wms-service
     # 端口不对外开放
@@ -97,7 +97,7 @@ services:
   # 3、短信服务
   sms-service:
     # 镜像地址
-    image: 192.168.99.100:5000/sms-service:1.0.0
+    image: 192.168.2.226:5000/sms-service:1.0.0
     # 容器名称
     container_name: sms-service
     # 端口不对外开放
@@ -142,7 +142,7 @@ services:
   # 4、邮件服务
   mail-service:
     # 镜像地址
-    image: 192.168.99.100:5000/mail-service:1.0.0
+    image: 192.168.2.226:5000/mail-service:1.0.0
     # 容器名称
     container_name: mail-service
     # 端口不对外开放

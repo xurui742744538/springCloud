@@ -6,7 +6,7 @@ services:
   # 1、网关zuul
   zuul-server:
     # 镜像地址
-    image: 192.168.99.100:5000/zuul-server:0.0.1-SNAPSHOT
+    image: 192.168.2.226:5000/zuul-server:0.0.1-SNAPSHOT
     # 容器名称
     container_name: zuul-server
     ports:
@@ -53,7 +53,7 @@ services:
   # 2、UAA
   uaa-interface:
     # 镜像地址
-    image: 192.168.99.100:5000/uaa-interface:0.0.1-SNAPSHOT
+    image: 192.168.2.226:5000/uaa-interface:0.0.1-SNAPSHOT
     # 容器名称
     container_name: uaa-interface
     ports:

@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-center/mail-service/mail-service.iml" filepath="$PROJECT_DIR$/service-center/mail-service/mail-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-center/order-service/order-service.iml" filepath="$PROJECT_DIR$/service-center/order-service/order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-center/service-center.iml" filepath="$PROJECT_DIR$/service-center/service-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-center/service-core/service-core.iml" filepath="$PROJECT_DIR$/service-center/service-core/service-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-center/sms-service/sms-service.iml" filepath="$PROJECT_DIR$/service-center/sms-service/sms-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springcloud-gogo.iml" filepath="$PROJECT_DIR$/.idea/springcloud-gogo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uaa-interface/uaa-interface.iml" filepath="$PROJECT_DIR$/uaa-interface/uaa-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-center/wms-service/wms-service.iml" filepath="$PROJECT_DIR$/service-center/wms-service/wms-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-server/zuul-server.iml" filepath="$PROJECT_DIR$/zuul-server/zuul-server.iml" />
     </modules>
   </component>
 </project>
