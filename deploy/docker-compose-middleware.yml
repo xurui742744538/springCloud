@@ -56,7 +56,7 @@ services:
         max_attempts: 3
       resources:
         limits:
-          memory: 700M
+          memory: 2048M
   # 2、安装es。       nosql
   elasticsearch: 
     image: elasticsearch
@@ -132,13 +132,12 @@ services:
           memory: 600M
   # 5、运行zipkin。   分布式调用链路追踪，可视化分析工具
   zipkin:
-    image: openzipkin/zipkin
+    image: openzipkin/zipkin-slim
     container_name: zipkin
     ports:
       - "9411:9411"
     environment:
       - ES_HOSTS=http://elasticsearch:9200
-      - STORAGE_TYPE=elasticsearch
     networks:
       - swarm_net
     depends_on:
@@ -155,7 +154,7 @@ services:
       resources:
         limits:
           cpus: '1'
-          memory: 700M
+          memory: 2048M
       
   # 6、运行mysql
   mysql:
